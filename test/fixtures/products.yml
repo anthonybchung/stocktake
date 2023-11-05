@@ -1,0 +1,22 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_id: 125178
+  supplier_SKU: 0077924038778
+  manufacturer_SKU: 51012024A
+  short_description: Baby Q Q1200 Black assembly
+  product_type: Baby Q
+
+two:
+  product_id: 124393
+  supplier_SKU: 077924031403
+  manufacturer_SKU: 51062024
+  short_description: Weber Baby Q Titanium Q1200 LP
+  product_type: Baby Q
+
+three:
+  product_id: 124398
+  supplier_SKU: 077924038792
+  manufacturer_SKU: 54010024
+  short_description: Weber Q Black Q2200 LP
+  product_type: Q

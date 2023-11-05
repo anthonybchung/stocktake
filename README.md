@@ -27,9 +27,9 @@ I would like to automate most of these steps.
 
 | Attribute         | Data type | Validation Rule |
 | :----------       | :-------- | :-------------- |
-| Product_ID        | string    | not null        |
-| Supplier_ID       | string    | not null        |
-| Manufacturer_SKU  | string    | not null        |
-| Short_Description | text      | not null        |
-| Product_Type      | text      | not null        |
+| product_id        | string    | not null        |
+| supplier_SKU      | string    | not null        |
+| manufacturer_SKU  | string    | not null        |
+| short_description | text      | not null        |
+| product_type      | string    | not null        |
 
