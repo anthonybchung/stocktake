@@ -23,3 +23,13 @@ I would like to automate most of these steps.
 - After all is finalised, I want to print the table on A4 paper.
 
 
+## Model: Product
+
+| Attribute         | Data type | Validation Rule |
+| :----------       | :-------- | :-------------- |
+| Product_ID        | string    | not null        |
+| Supplier_ID       | string    | not null        |
+| Manufacturer_SKU  | string    | not null        |
+| Short_Description | text      | not null        |
+| Product_Type      | text      | not null        |
+
