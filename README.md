@@ -48,5 +48,22 @@ end
 
 CRUD for Product.
 
-The user can enter a new product one at a time, or a MS-excel file of products produced by the POS system.
+There are two methods the user can enter new products into the Product table.
+
+- Manually enter the product data one at a time.
+- Upload a file produced by the POS system.
+
+### Seeding for Product
+
+```
+Product_data = Struct.new(
+  :product_id,
+  :supplier_SKU,
+  :manufacturer_SKU,
+  :short_description,
+  :product_type
+)
+```
+
+
 

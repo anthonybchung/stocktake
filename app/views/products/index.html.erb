@@ -1,2 +1,9 @@
 <h1> Registered Products on the database. </h1>
 
+<table class="table-auto">
+  <tbody>
+    <% @products.each do |product| %>
+      <%= render partial: 'product', locals: {product: product} %>
+    <% end %>
+  </tbody>
+</table>
