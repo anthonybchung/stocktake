@@ -33,3 +33,20 @@ I would like to automate most of these steps.
 | short_description | text      | not null        |
 | product_type      | string    | not null        |
 
+#### Minitest
+
+To avoid duplications in mintest use create an object in setup function.
+
+```
+def setup
+  @product = products(:one)
+end
+```
+# We need to find out which attribute represents the barcode when scanning.
+
+## Controller Product.
+
+CRUD for Product.
+
+The user can enter a new product one at a time, or a MS-excel file of products produced by the POS system.
+
