@@ -1,7 +1,8 @@
 <tr  class="bg-gray-100 even:bg-white odd:bg-gray-200">
   <td class="px-6 py-4"> <%= product.product_id %> </td>
-  <td class="px-6 py-4 "> <%= product.supplier_SKU %> </td>
-  <td class="px-6 py-4 "> <%= product.manufacturer_SKU %> </td>
-  <td class="px-6 py-4 "> <%= product.short_description %> </td>
-  <td class="px-6 py-4 "> <%= product.product_type %> </td>
+  <td class="px-6 py-4"> <%= product.supplier_SKU %> </td>
+  <td class="px-6 py-4"> <%= product.manufacturer_SKU %> </td>
+  <td class="px-6 py-4"> <%= product.short_description %> </td>
+  <td class="px-6 py-4"> <%= product.product_type %> </td>
+  <td class="px-6 py-4"> <%= link_to "Info", product_path(product)%></td>
 </tr>
