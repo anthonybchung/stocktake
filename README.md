@@ -65,5 +65,9 @@ Product_data = Struct.new(
 )
 ```
 
+### add Stock on Hand column.
 
+| Atttribute | Data Type |
+|:---------- | :-------- |
+| stock_on_hand | integer | 
 

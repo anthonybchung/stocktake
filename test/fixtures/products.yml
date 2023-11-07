@@ -6,6 +6,7 @@ one:
   manufacturer_SKU: 51012024A
   short_description: Baby Q Q1200 Black assembly
   product_type: Baby Q
+  # stock_on_hand: nil
 
 two:
   product_id: 124393
@@ -13,6 +14,7 @@ two:
   manufacturer_SKU: 51062024
   short_description: Weber Baby Q Titanium Q1200 LP
   product_type: Baby Q
+  stock_on_hand: 10
 
 three:
   product_id: 124398
@@ -20,3 +22,4 @@ three:
   manufacturer_SKU: 54010024
   short_description: Weber Q Black Q2200 LP
   product_type: Q
+  stock_on_hand: 20

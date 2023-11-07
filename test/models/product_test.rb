@@ -35,4 +35,8 @@ class ProductTest < ActiveSupport::TestCase
     @product.product_type = " "
     assert_not @product.valid?
   end
+
+  test "stock_on_hand default should be 0" do
+    assert_equal 0, @product.stock_on_hand
+  end
 end
